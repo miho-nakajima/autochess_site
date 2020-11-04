@@ -1,0 +1,452 @@
+@media screen and (min-width:591px) and (max-width:1100px) {
+
+  /* header */
+  header{
+    margin: auto;
+  }
+
+  header img{
+    width: 100%;
+  	height:auto;
+  }
+
+  /* body */
+  body{
+    margin: 0;
+    text-align: center;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #ffffff;
+  }
+
+  body::before{
+    content: '';
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height: 100vh;
+    background:url('../img/autochess_bg.png');
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size:cover;
+   }
+
+  /* AUTO CHESS企業交流戦とは */
+  .overview_title,.company_title,.rule_title{
+    color:#00CED1;
+    padding-top: 100px;
+    letter-spacing: 5px;
+    text-shadow: 1px 4px 6px #545454;
+  }
+
+  .date_title,.guest_title,.gift_title,.sponsor_title{
+    color:#00CED1;
+    padding-top: 100px;
+    letter-spacing: 15px;
+    text-shadow: 1px 4px 6px #545454;
+  }
+
+  .overview{
+    color:#ffffff;
+  }
+
+  .overview p{
+    line-height: 2;
+  }
+
+  /* 配信 */
+  .date h2{
+    font-size: 20px;
+  }
+
+  .haisin{
+    margin: auto;
+    width: 480px;
+    height: auto;
+    text-align: center;
+  }
+
+  iframe{
+    width: 480px;
+    height: 270px;
+  }
+
+  /* 参加企業 */
+  a{
+    color: #ffffff;
+  }
+
+  .company_top{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .company > p{
+    text-align: right;
+    padding-right: 50px;
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: #FFF;
+    background: #5e5e5e;
+    border-radius: 10px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: solid 4px #2e2e2e;
+  }
+
+  .btn:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+  }
+
+
+  .ak{
+    display: flex;
+    margin: 50px  auto;
+    display: inline-flex;
+  }
+
+  .ak_right{
+    margin: auto 0;
+  }
+
+  .ak_right img{
+    width: 150px;
+    padding-left: 50px;
+  }
+
+  .ak_left{
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  .msi{
+    display: flex;
+    margin: 50px  auto;
+    display: inline-flex;
+  }
+
+  .msi_right{
+    margin: auto 0;
+  }
+
+  .msi_right img{
+    width: 150px;
+    padding-left: 50px;
+  }
+
+  .msi_left{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  .company_bottom{
+    margin: 0 auto;
+    width: 70%;
+    }
+
+  .sta{
+    display: flex;
+    margin: 50px  auto;
+    display: inline-flex;
+  }
+
+  .sta_right{
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  .sta_left{
+    margin: auto 0;
+  }
+
+  .sta_left img{
+    width: 200px;
+    padding-right: 50px;
+  }
+
+  .tsukuruba{
+    display: flex;
+    margin: 50px  auto;
+    display: inline-flex;
+  }
+
+  .tsukuruba_left{
+    margin: auto 0;
+  }
+
+  .tsukuruba_left img{
+    width: 150px;
+    padding-right: 50px;
+  }
+
+  .tsukuruba_right{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  /* 出演 */
+  .guest{
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .guest_left{
+    margin: auto;
+  }
+
+  .guest_left img{
+    width: 200px;
+    height: auto;
+    box-shadow:0px 0px 10px;
+    border:1px solid #000;
+    margin-top: 50px;
+  }
+
+  .guest_right{
+    text-align: center;
+    margin: auto;
+  }
+
+  .btn_twitter {
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 10px;/*角丸に*/
+    display: inline-block;
+    height: 30px;/*高さ*/
+    width: 130px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 18px;/*文字のサイズ*/
+    line-height: 30px;/*高さと合わせる*/
+    background: #1da1f3;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+  }
+
+  .btn_twitter .fa-twitter {
+    text-shadow: 2px 2px 0px #4287d6;
+    font-size: 20px;
+  }
+
+  .btn_twitter span {
+    display:inline-block;
+    transition: .5s;
+  }
+
+  .btn_twitter:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+
+
+  /* ルール */
+  .rule{
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .rule ul{
+    display: inline-block;
+  }
+
+  .rule ul li{
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  /* 賞品 */
+  .gift{
+    margin: 50px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .gift_left img{
+    width: 200px;
+    height: auto;
+    margin: 0 50px;
+    box-shadow:0px 0px 5px;
+    border:1px solid #000;
+  }
+
+  .gift_right img{
+    width: 200px;
+    height: auto;
+    margin: 0 50px;
+    box-shadow:0px 0px 5px;
+    border:1px solid #000;
+  }
+
+  /* 協賛 */
+  .sponsor{
+    display: flex;
+    margin: 50px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsor_1 img{
+    width: 170px;
+    height: auto;
+    padding: 0 12px;
+  }
+
+  .sponsor_2 img{
+    width: 100px;
+    height: auto;
+    padding: 0 12px;
+  }
+
+  .sponsor_3 img{
+    width: 150px;
+    height: auto;
+    padding: 0 12px;
+  }
+
+  .sponsor_4 img{
+    width: 150px;
+    height: auto;
+    padding: 0 12px;
+  }
+
+    /* アニメーション */
+  .anime {
+    animation: anime1 3s ease infinite;
+    width: 250px;
+    padding-top: 150px;
+  }
+
+  @keyframes anime1 {
+    0% { transform:translateY(0) }
+    5% { transform:translateY(0) }
+    10% { transform:translateY(0) }
+    20% { transform:translateY(-15px) }
+    25% { transform:translateY(0) }
+    30% { transform:translateY(-15px) }
+    50% { transform:translateY(0) }
+    100% { transform:translateY(0) }
+  }
+
+  /* footer */
+  .footer{
+    color: #040404;
+    margin: auto;
+    display: flow-root;
+    padding-top: 25px;
+  }
+
+  .sutajio{
+    width:100%;
+    height:auto;
+    background-color: #fcfcfc;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px #000000;
+  }
+
+  .sutajio{
+    width: 590px;
+  }
+
+  .sutajio-logo img{
+    width:120px;
+    height:auto;
+  }
+
+  .sutajio-gazou{
+    display: flex;
+  }
+
+  .sutajio-left{
+      margin: auto;
+      width: 100%;
+      height: auto;
+  }
+
+  .sutajio-left img{
+    width: 200px;
+    height: auto;
+  }
+
+  .sutajio-center{
+      margin: auto;
+      width: 100%;
+      height: auto;
+  }
+
+  .sutajio-center img{
+      width: 200px;
+      height: auto;
+  }
+
+  .sutajio-hp > a{
+    color: #ffffff;
+  }
+
+  .btn_sutajio ,.btn_sutajio_twitter {
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 10px;/*角丸に*/
+    display: inline-block;
+    height: 25px;/*高さ*/
+    width: 100px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 15px;/*文字のサイズ*/
+    line-height: 25px;/*高さと合わせる*/
+    background: #333333;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+    margin-top: 30px;
+  }
+
+  .btn_sutajio:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+  }
+
+  .btn_sutajio_twitter:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+  }
+
+  .sutajiogaiyou{
+    font-size: 15px;
+  }
+
+  .cogme{
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .cogme img{
+  	width:590px;
+  	height:auto;
+  }
+
+  .footer p{
+    color: #ffffff;
+  }
+  }
